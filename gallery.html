@@ -3,24 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Gallery</title>
+    <meta name="description" content="My Gallery">
+    <title>Gallery</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Gallery</h1>
+        <div>
+            <h1>Welcome to My Personal Website!</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
     </header>
-    <section>
-        <h2>Photo Collection</h2>
-        <div class="gallery">
-            <img src="path/to/image1.jpg" alt="Description of image 1">
-            <img src="path/to/image2.jpg" alt="Description of image 2">
-            <img src="path/to/image3.jpg" alt="Description of image 3">
+
+    <section class="gallery">
+        <h2>My Gallery</h2>
+        <div class="gallery-images">
+            <img src="Dream Escapade.jpg" alt="Image 1">
+            <img src="DSC_4473.JPG" alt="Image 2">
+            <img src="DSC_4483.JPG" alt="Image 3">
+            <img src="Hiker.png" alt="Image 4">
+            <img src="Image5.png" alt="Image 5">
+        </div>
+
+        <div class="lightbox">
+            <img src="" alt class="lightbox-image">
+            <button class="close-lightbox">x</button>
         </div>
     </section>
-    <footer>
-        <p>Go back to <a href="index.html">Home</a>.</p>
-    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
