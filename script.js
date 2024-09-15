@@ -9,6 +9,7 @@ const images = galleryImages.querySelectorAll('img');
 let currentIndex = 0;
 // HOME
 
+
 // GALLERY
 // Event listener to each image in the gallery
 galleryImages.addEventListener('click', (e) => {
